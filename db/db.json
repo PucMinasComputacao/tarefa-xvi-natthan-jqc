@@ -1,0 +1,34 @@
+{
+  "jogos": [
+    {
+      "id": "1",
+      "titulo": "Resident Evil 2 Remake",
+      "genero": "Terror / Sobrevivência",
+      "plataforma": "PC, PlayStation, Xbox",
+      "ano": 2019,
+      "nota": 9.2,
+      "descricao": "Remake do clássico jogo de terror, com exploração, puzzles e combate contra zumbis.",
+      "imagem": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "Minecraft",
+      "genero": "Sandbox / Criativo",
+      "plataforma": "PC, Mobile, Consoles",
+      "ano": 2011,
+      "nota": 9.5,
+      "descricao": "Jogo de mundo aberto focado em construção, sobrevivência e criatividade.",
+      "imagem": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8fu6.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "Valorant",
+      "genero": "FPS Competitivo",
+      "plataforma": "PC",
+      "ano": 2020,
+      "nota": 8.7,
+      "descricao": "Jogo de tiro tático em equipe com agentes, habilidades e partidas competitivas.",
+      "imagem": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvt.jpg"
+    }
+  ]
+}
