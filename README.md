@@ -25,14 +25,14 @@ Controle de versionamento avançado com Git (commits organizados e tags).
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Nathan Junquer de Almeida Castro
+- Matricula: 915378
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+![Tela de cards](public/img/Teladecards.PNG)
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+![Detalhes](public/img/detalhes.PNG)
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+![Console](public/img/console.PNG)
 

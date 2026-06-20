@@ -1,0 +1,12 @@
+{
+  "name": "catalogo-jogos-crud",
+  "version": "1.0.0",
+  "description": "Projeto CRUD com JSON Server para catálogo de jogos",
+  "scripts": {
+    "start": "json-server --watch db/db.json --port 3000",
+    "dev": "json-server --watch db/db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

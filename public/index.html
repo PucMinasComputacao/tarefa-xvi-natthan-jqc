@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Jogos</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    
+  <header class="topo">
+    <h1>Catálogo de Jogos</h1>
+    <p>CRUD completo usando JavaScript, Fetch API e JSON Server</p>
+  </header>
+
+  <main class="container">
+    <section class="card form-card">
+      <h2 id="formTitulo">Cadastrar jogo</h2>
+
+      <form id="formJogo">
+        <input type="hidden" id="jogoId" />
+
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" placeholder="Ex: God of War" required />
+
+        <label for="genero">Gênero</label>
+        <input type="text" id="genero" placeholder="Ex: Ação" required />
+
+        <label for="plataforma">Plataforma</label>
+        <input type="text" id="plataforma" placeholder="Ex: PC, PlayStation" required />
+
+        <label for="ano">Ano</label>
+        <input type="number" id="ano" min="1970" max="2030" required />
+
+        <label for="nota">Nota</label>
+        <input type="number" id="nota" min="0" max="10" step="0.1" required />
+
+        <label for="imagem">URL da imagem</label>
+        <input type="url" id="imagem" placeholder="https://exemplo.com/imagem.jpg" required />
+
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" rows="4" placeholder="Escreva uma breve descrição" required></textarea>
+
+        <div class="botoes-form">
+          <button type="submit" id="btnSalvar">Salvar</button>
+          <button type="button" id="btnCancelar" class="secundario">Cancelar edição</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="lista-area">
+      <div class="lista-header">
+        <h2>Jogos cadastrados</h2>
+        <button id="btnRecarregar" class="secundario">Recarregar</button>
+      </div>
+      <div id="mensagem" class="mensagem"></div>
+      <div id="listaJogos" class="grid-jogos"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto acadêmico - CRUD com JSON Server</p>
+  </footer>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
